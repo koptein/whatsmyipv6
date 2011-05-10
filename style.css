@@ -1,0 +1,11 @@
+.red {
+    color: #F00;
+}
+.green {
+    color: #0F0;
+}
+.footer{
+    position:fixed;
+    bottom:30px;
+    left:10px;
+}
