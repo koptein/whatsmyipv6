@@ -6,7 +6,13 @@
     <title>Whats my IPv6 Address?</title>
     </head>
     <body>
+    <script type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <div class="header">
         <h1> What Protocol are you using? </h1>
+    </div><br>
+    <div class="main">
         <p>
         You are using 
         <?php 
@@ -40,6 +46,7 @@
         target="_blank">facebook</a> or contact me via Jabber
         (koptein@jabber.unixgroup.de) in order to buy me a beer.
         </p>
+        </div>
         <div class='footer'>
             Made by <a href="http://www.koptein.de">Christian Koptein</a>  
         </div>

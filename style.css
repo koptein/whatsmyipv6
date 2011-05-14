@@ -1,8 +1,19 @@
 body {
     font-family: 'Droid Serif', georgia, serif;
+    background-color:#fff;
+    background-image:url('bg.png');
+    background-repeat:repeat-x;
 }
 p {
     font-family: 'Droid Serif', georgia, serif;
+    padding: 5px;
+}
+h1{
+    font-family: 'Droid Serif', georgia, serif;
+    padding: 0px;
+    margin:0px;
+    margin-left:5px;
+    font-size: 14pt;
 }
 .red {
     color: #F00;
@@ -15,4 +26,21 @@ p {
     bottom:10px;
     left:10px;
     font-size:10px;
+}
+div.header{
+    margin:0px;
+    padding:0px;
+}
+
+div.main{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 600px;
+    padding: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image:url('mainbg.png');
+    background-repeat:repeat-x;
+
+    background-color: #f1f1f1;
 }
