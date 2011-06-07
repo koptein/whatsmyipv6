@@ -6,9 +6,10 @@
     <title>Whats my IPv6 Address?</title>
     </head>
     <body>
-    <script type="text/javascript"
-    src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+   <!-- Piwik Image Tracker -->
+   <img src="http://piwik.whatsmyipv6.org/piwik.php?idsite=1&rec=1"
+   style="border:0" alt="" />
+    <!-- End Piwik -->
     <div class="header">
         <h1> What Protocol are you using? </h1>
     </div><br>
@@ -50,22 +51,7 @@
         <div class='footer'>
             Made by <a href="http://www.koptein.de">Christian Koptein</a>  
         </div>
-       <!-- Piwik --> 
-       <script type="text/javascript">
-       var pkBaseURL = (("https:" == document.location.protocol) ?
-       "https://piwik.whatsmyipv6.org/" : "http://piwik.whatsmyipv6.org/");
-       document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js'
-       type='text/javascript'%3E%3C/script%3E"));
-       </script><script type="text/javascript">
-       try {
-           var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-           piwikTracker.trackPageView();
-           piwikTracker.enableLinkTracking();
-       } catch( err ) {}
-       </script><noscript><p><img
-       src="http://piwik.whatsmyipv6.org/piwik.php?idsite=1" style="border:0"
-       alt="" /></p></noscript>
-       <!-- End Piwik Tracking Code -->
-    </body>
+     
+     </body>
 </html>
 
